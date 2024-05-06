@@ -1,0 +1,927 @@
+[
+  {
+    "patient_first_name": "Pippin",
+    "patient_last_name": "Took",
+    "patient_dob": "1999-04-01",
+    "patient_id": "MiddleEarth_006",
+    "patient_email": "pippin@shire.com",
+    "patient_phone_number": null,
+    "sdoh_services": {
+      "services": []
+    },
+    "patient_mrn": null,
+    "trial_type": "observational",
+    "referral_source": "Email",
+    "patient_provider_notes": null,
+    "referral_last_updated": "2024-04-30 17:49:10.625",
+    "operations_next_follow_up_date": null,
+    "referred_by_full_name": "Kirsten Lindsmith",
+    "date_of_referral": "2024-04-27",
+    "referral_status": "Referred",
+    "is_patient_unresponsive": false,
+    "status_modified_at": "2024-04-30 17:49:10.625",
+    "status_modified_by_full_name": "Kirsten Lindsmith",
+    "status_modified_by_uuid": "656fa29d-454e-47ef-999e-4f624518b6f6",
+    "has_documentation_files": false,
+    "operations_next_steps": [
+      {
+        "name": "Contacted provider for records",
+        "checked": false,
+        "date": null
+      },
+      {
+        "name": "Received medical records",
+        "checked": false,
+        "date": null
+      },
+      {
+        "name": "Verified medical records",
+        "checked": false,
+        "date": null,
+        "hideDate": true
+      },
+      {
+        "name": "Contacted patient",
+        "checked": false,
+        "date": null
+      },
+      {
+        "name": "Received TOU consent",
+        "checked": false,
+        "date": null,
+        "hideDate": true
+      },
+      {
+        "name": "Contacted trial site",
+        "checked": false,
+        "date": null
+      },
+      {
+        "name": "Medical records transferred to trial site",
+        "checked": false,
+        "date": null
+      },
+      {
+        "name": "First trial site appt date",
+        "checked": false,
+        "date": null
+      },
+      {
+        "name": "Patient consent to clinical trial",
+        "checked": false,
+        "date": null
+      },
+      {
+        "name": "Enrolled in trial",
+        "checked": false,
+        "date": null
+      },
+      {
+        "name": "*Date confirmed saliva sample submitted",
+        "checked": false,
+        "date": null
+      },
+      {
+        "name": "*PCCTC confirmed",
+        "checked": false,
+        "date": null
+      },
+      {
+        "name": "*PCCTC Status Update - Date Sample Received",
+        "checked": false,
+        "date": null
+      },
+      {
+        "name": "*Date Baseline Medical Records Requested",
+        "checked": false,
+        "date": null
+      },
+      {
+        "name": "*Date Baseline Medical Records Sent to PCCTC",
+        "checked": false,
+        "date": null
+      },
+      {
+        "name": "Billed to sponsor",
+        "checked": false,
+        "date": null
+      }
+    ],
+    "provide_navigation_services": false,
+    "provide_retention_services": false,
+    "trial_criteria": "Inclusion Criteria:\n\nHistologically confirmed prostate adenocarcinoma by biopsy within 1 year (365 days) from registration. The most recent biopsy will determine eligibility\nNational Cancer Center Network (NCCN) intermediate risk prostate cancer, defined as clinical T2b-T2c, Gleason 7, or PSA 10-20 ng/mL. Patients who only have radiographic evidence of T3 disease (i.e. extracapsular extension, or seminal vesical invasion radiographically) will not be excluded.\n\nAble to characterize the number of unfavorable intermediate risk factors below:\n\n2-3 intermediate risk factors\n\nT2b-T2c\nGleason 7\nPSA 10-20 ng/mL\nGleason 4+3 disease\nPercent positive cores ≥ 50%\nTissue available for submission for Decipher genomic score from archived tissue. Patients who had tissue sent to Decipher but did not have sufficient tissue for processing will not be excluded. Patients who already have a Decipher score must present official report documentation.\nAble to undergo radiation therapy with curative intent\nAge ≥ 18 at the time of consent.\nDemonstrate adequate organ function (hematologic, renal, hepatic) within 3 months of registration\nSystem Laboratory Value\n\nHematological:\n\nPlatelet count (plt) ≥ 100,000/ µL\nHemoglobin (Hgb) ≥ 9 g/dL\nAbsolute neutrophil count (ANC) ≥ 1000 cells/µL\n\nRenal:\n\nGlomerular filtration rate (GFR) ≥ 45 mL/min\n\nCKD-EPI equation will be used to calculate GFR\n\nHepatic and Other:\n\nBilirubin ≤ 1.5 × upper limit of normal (ULN)\n\nIn subjects with Gilbert's syndrome, if total bilirubin is >1.5 × ULN, measure direct and indirect bilirubin; if direct bilirubin is ≤1.5 × ULN, subject may be eligible\nAspartate aminotransferase (AST) ≤ 2.5 × ULN\nAlanine aminotransferase (ALT) ≤ 2.5 × ULN\nSerum Albumin > 3.0 g/dL\nSerum potassium ≥ 3.5 mmol/L\n\nEndocrine:\n\nTestosterone ≥ 150 ng/dL\nEastern Cooperative Oncology Group (ECOG) performance status of 0-1\nGood erectile function, as assessed by \"firm enough for masturbation or foreplay\" or \"firm enough for intercourse\" response to the question \"How would you describe the usual quality of your erections during the past 4 weeks\" on the EPIC-26 questionnaire\nAgrees to use a condom and another effective method of birth control if he is having sex with a woman of childbearing potential (defined as a premenopausal female capable of becoming pregnant) OR agrees to use a condom if he is having sex with a woman who is pregnant while on study drug and for 3 months following the last dose of study drug. It is recommended that men who have had a vasectomy more than a year prior to trial registration use a condom. Must also agree not to donate sperm.\nAbility to understand and comply with study procedures for the entire length of the study as determined by the site investigator or protocol designee\nWritten informed consent and HIPAA authorization for release of personal health information prior to registration. \"Note\": HIPAA authorization may be included in the informed consent or obtained separately. Subject must have the ability to understand and willingness to sign the written informed consent document.\nAbility to swallow pills.\nFor patients in whom SBRT/combination RT stratification is pre-specified, prostate volume as determined by MRI, CT, or ultrasound to be less than 90 cc.\n\nExclusion Criteria:\n\nPrior surgical, cryotherapy, or high-intensity focused ultrasound for prostate cancer\nPrior orchiectomy or hormonal therapy (gonadotropin releasing hormone (GnRH) agonists, non-steroidal anti-androgens)\nPrior treatment with a first generation AR inhibitor (e.g. bicalutamide, flutamide, nilutamide, cyproterone acetate) or second generation AR inhibitor (e.g.Enzalutamide, Apalutamide, or Darolutamide)\nPrior treatment with other investigational AR inhibitors, CYP17 enzyme inhibitor such as abiraterone acetate, TAK-700, or oral ketoconazole longer than 28 days\nPrior use of estrogens; patients who have used testosterone injections must have ceased utilization within 90 days prior to screening testosterone. Patients who have used any other type of testosterone supplementation (e.g. patches) must have ceased utilization within 45 days prior to screening testosterone.\nUse of 5-α reductase inhibitors (finasteride, dutasteride) within 28 days of randomization.\nPrior radiation therapy that would result in overlap of current radiation therapy fields\nPrior chemotherapy for prostate cancer\nClinically positive lymph nodes by imaging, sampling, or dissection. Patients with lymph nodes greater than 1.5 cm on short axis will require a negative biopsy for eligibility.\nMetastatic disease, as assessed by abdominal or pelvic computed tomography (CT) or other imaging modality. Patients with 3 intermediate risk factors will require a CT abdomen/pelvis and a bone scan or PET imaging (PSMA PET/CT, fluciclovine PET/CT, etc.).\nErectile aids other than oral phosphodiesterase (PDE)-5 inhibitors\nHistory of any of the following: Severe or unstable angina, myocardial infarction, symptomatic congestive heart failure New York Heart Association (NYHA) class III or IV, arterial or venous thromboembolic events (e.g., pulmonary embolism, cerebrovascular accident including transient ischemic attacks), clinically significant ventricular arrhythmias, moderate or severe hepatic impairment (Child Pugh Class B or C), viral hepatitis, or human immunodeficiency virus within 6 months prior to randomization.\nCurrent untreated hypertension (systolic >= 160 mmHg or diastolic >= 100 mmHg). Patients with one blood pressure reading with systolic < 160 mmHg and diastolic < 100 mmHg within 90 days of registration would be eligible for study.\n\nIndividuals with a history of another malignancy are not eligible if:\n\nThe cancer is under active treatment\nThe cancer can be seen on radiology scans\nIf they are off cancer treatment, but in the opinion of their oncologist, have a high risk of relapse within 5 years.\nHistory of allergic reactions attributed to compounds of similar chemical or biologic composition to study drugs\nUncontrolled intercurrent illness including, but not limited to, ongoing or active infection (NCI-CTCAE version 5.0 Grade 2), psychiatric illness or social situations that would limit compliance with study requirement\nAny condition that, in the opinion of the site investigator, would preclude participation in this study",
+    "tl_tracked_referral_uuid": "407304c1-7698-41af-a2e1-280a32f5f647",
+    "tl_sponsored_trial_uuid": "541335c6-5399-49f5-ba77-836f7b824518",
+    "tl_sponsored_trial_location_uuid": "d2af9fde-0ca9-4ebf-968e-6d003f40ff58",
+    "tl_provider_uuid": "22eeed69-1309-48d5-a67a-37825400fa64",
+    "tl_ally_navigator_uuid": "0f113046-1309-48d5-a67a-37825400f057",
+    "sponsored_trial_acronym": "SunRISe-3",
+    "sponsored_trial_name": "A Study of TAR-200 in Combination With Cetrelimab or TAR-200 Alone Versus Intravesical Bacillus Calmette-Guérin (BCG) in Participants With BCG-naïve High-risk Non-muscle Invasive Bladder Cancer",
+    "location_name": "Providence Medical Foundation",
+    "location_address_city_name": "Santa Rosa",
+    "location_address_state_code": "CA",
+    "provider_first_name": "Galadriel",
+    "provider_last_name": "Artanis",
+    "provider_email": null,
+    "provider_phone_number": null,
+    "provider_tl_practice_uuid": "848eed69-1309-48d5-a67a-37825400f438",
+    "provider_practice_name": "Lothlórien Oncology",
+    "provider_practice_address_line_1": "Lórien",
+    "provider_practice_address_line_2": null,
+    "provider_practice_address_city_name": "Misty Mountains",
+    "provider_practice_address_zip5_code": "04358",
+    "provider_practice_address_state_code": "ME",
+    "navigator_first_name": "Kirsten",
+    "navigator_last_name": "Lindsmith"
+  },
+  {
+    "patient_first_name": "Boromir",
+    "patient_last_name": "Son of Denethor",
+    "patient_dob": "1985-07-18",
+    "patient_id": "MiddleEarth_005",
+    "patient_email": "boromir@stewardsoffice.gondor.co",
+    "patient_phone_number": null,
+    "sdoh_services": {
+      "services": []
+    },
+    "patient_mrn": null,
+    "trial_type": "observational",
+    "referral_source": "Email",
+    "patient_provider_notes": null,
+    "referral_last_updated": "2024-04-30 17:44:13.834",
+    "operations_next_follow_up_date": null,
+    "referred_by_full_name": "Kirsten Lindsmith",
+    "date_of_referral": "2024-04-28",
+    "referral_status": "Referred",
+    "is_patient_unresponsive": false,
+    "status_modified_at": "2024-04-30 17:44:13.834",
+    "status_modified_by_full_name": "Kirsten Lindsmith",
+    "status_modified_by_uuid": "656fa29d-454e-47ef-999e-4f624518b6f6",
+    "has_documentation_files": false,
+    "operations_next_steps": [
+      {
+        "name": "Contacted provider for records",
+        "checked": true,
+        "date": "2024-04-05"
+      },
+      {
+        "name": "Received medical records",
+        "checked": true,
+        "date": "2024-04-07"
+      },
+      {
+        "name": "Verified medical records",
+        "checked": true,
+        "date": null,
+        "hideDate": true
+      },
+      {
+        "name": "Contacted patient",
+        "checked": true,
+        "date": "2024-04-06"
+      },
+      {
+        "name": "Received TOU consent",
+        "checked": true,
+        "date": null,
+        "hideDate": true
+      },
+      {
+        "name": "Contacted trial site",
+        "checked": false,
+        "date": null
+      },
+      {
+        "name": "Medical records transferred to trial site",
+        "checked": false,
+        "date": null
+      },
+      {
+        "name": "First trial site appt date",
+        "checked": false,
+        "date": null
+      },
+      {
+        "name": "Patient consent to clinical trial",
+        "checked": false,
+        "date": null
+      },
+      {
+        "name": "Enrolled in trial",
+        "checked": false,
+        "date": null
+      },
+      {
+        "name": "*Date confirmed saliva sample submitted",
+        "checked": false,
+        "date": null
+      },
+      {
+        "name": "*PCCTC confirmed",
+        "checked": false,
+        "date": null
+      },
+      {
+        "name": "*PCCTC Status Update - Date Sample Received",
+        "checked": false,
+        "date": null
+      },
+      {
+        "name": "*Date Baseline Medical Records Requested",
+        "checked": false,
+        "date": null
+      },
+      {
+        "name": "*Date Baseline Medical Records Sent to PCCTC",
+        "checked": false,
+        "date": null
+      },
+      {
+        "name": "Billed to sponsor",
+        "checked": false,
+        "date": null
+      }
+    ],
+    "provide_navigation_services": false,
+    "provide_retention_services": false,
+    "tl_tracked_referral_uuid": "129ada24-ad84-4369-803f-0f9e9fc7da03",
+    "tl_sponsored_trial_uuid": "d610cc1e-3008-462b-bcaa-7fe2300832db",
+    "tl_sponsored_trial_location_uuid": "dd69b9f7-f6f4-4d9d-b823-d9958fe83da4",
+    "tl_provider_uuid": "448eed69-1309-48d5-a67a-37825400fa6b",
+    "tl_ally_navigator_uuid": "0f113046-1309-48d5-a67a-37825400f057",
+    "sponsored_trial_acronym": "MonumenTAL-3",
+    "sponsored_trial_name": "A Study Comparing Talquetamab in Combination With Daratumumab or in Combination With Daratumumab and Pomalidomide Versus Daratumumab in Combination With Pomalidomide and Dexamethasone in Participants With Multiple Myeloma That Returns After Treatment or is Resistant to Treatment",
+    "location_name": "UC Davis Comprehensive Cancer Center",
+    "location_address_city_name": "Sacramento",
+    "location_address_state_code": "CA",
+    "provider_first_name": "Gandalf",
+    "provider_last_name": "Greyhame",
+    "provider_email": "gandalf@middleearth.co.uk",
+    "provider_phone_number": "4132108112",
+    "provider_tl_practice_uuid": "fff30304-1309-48d5-a67a-37825400f43d",
+    "provider_practice_name": "Shire Oncology",
+    "provider_practice_address_line_1": "Brandy Hall",
+    "provider_practice_address_line_2": "2nd Fl",
+    "provider_practice_address_city_name": "Buckland",
+    "provider_practice_address_zip5_code": "01002",
+    "provider_practice_address_state_code": "MA",
+    "navigator_first_name": "Kirsten",
+    "navigator_last_name": "Lindsmith"
+  },
+  {
+    "patient_first_name": "Bilbo",
+    "patient_last_name": "Baggins",
+    "patient_dob": "1940-09-22",
+    "patient_sex": "male",
+    "patient_race": "white",
+    "patient_ethnicity": "not_hispanic_or_latino",
+    "patient_address_line_1": "Bag End, Bagshot Row",
+    "patient_address_line_2": "Ground Fl",
+    "patient_address_city_name": "Hobbiton",
+    "patient_address_state_code": "MA",
+    "patient_address_zip5_code": "01060",
+    "patient_timezone": "eastern",
+    "patient_email": "bilbo@bagend.co.uk",
+    "patient_phone_number": "3333333333",
+    "patient_caregiver_name": "Frodo Baggins",
+    "patient_caregiver_email": "frodo@bagend.co.uk",
+    "patient_caregiver_phone_number": "4444444444",
+    "patient_id": "MiddleEarth_001",
+    "patient_sponsor_id": "Shire_001",
+    "patient_mrn": "999-99999999",
+    "tl_sponsored_trial_uuid": "d610cc1e-3008-462b-bcaa-7fe2300832db",
+    "tl_sponsored_trial_location_uuid": "2ed20cb3-6456-4241-bafb-4bfcac13e7f9",
+    "tl_provider_uuid": "448eed69-1309-48d5-a67a-37825400fa6b",
+    "tl_ally_navigator_uuid": "eeee3046-1309-48d5-a67a-37825400f111",
+    "patient_insurance_type": "medicare",
+    "sdoh_services": {
+      "utilized": true,
+      "services": [
+        {
+          "name": "Transportation",
+          "checked": true
+        },
+        {
+          "name": "Lodging",
+          "checked": true
+        },
+        {
+          "name": "Food security",
+          "checked": false
+        },
+        {
+          "name": "Other",
+          "checked": true,
+          "otherValue": "Medication coupons"
+        }
+      ]
+    },
+    "tl_tracked_referral_uuid": "d034a466-1382-4999-8999-728193fe83ab",
+    "trial_type": "interventional",
+    "referral_status": "Assigned first tx date",
+    "status_modified_at": "2024-04-30 16:39:17.237",
+    "status_modified_by_full_name": "Thisisa Fakeuser",
+    "status_modified_by_uuid": "3354ea74-9c14-47c9-992e-e3556b0e6ace",
+    "status_modified_reason": "This is a test reason just to show what text should look like here",
+    "status_date": "2024-05-07",
+    "status_date_2": "2024-04-29",
+    "has_documentation_files": true,
+    "documentation_reviewed_at": "2024-04-28",
+    "documentation_reviewed_by_full_name": "Adifferent Fakeuser",
+    "documentation_reviewed_by_uuid": "5d8ee979-fb74-44f0-a8b4-3a9d78a2ee68",
+    "is_patient_unresponsive": false,
+    "referral_notes": "Pleasant fellow, fond of jewelry",
+    "referral_source": "App (Signed out)",
+    "referral_last_updated": "2024-04-30 15:39:17.237",
+    "referred_by_full_name": "Kirsten Lindsmith",
+    "date_of_referral": "2024-03-27",
+    "operations_next_follow_up_date": "2024-05-12",
+    "operations_next_steps": [
+      {
+        "name": "Contacted provider for records",
+        "checked": true,
+        "date": "2024-04-04"
+      },
+      {
+        "name": "Received medical records",
+        "checked": true,
+        "date": "2024-04-08"
+      },
+      {
+        "name": "Verified medical records",
+        "checked": true,
+        "date": null,
+        "hideDate": true
+      },
+      {
+        "name": "Contacted patient",
+        "checked": true,
+        "date": "2024-04-11"
+      },
+      {
+        "name": "Received TOU consent",
+        "checked": true,
+        "date": null,
+        "hideDate": true
+      },
+      {
+        "name": "Contacted trial site",
+        "checked": true,
+        "date": null
+      },
+      {
+        "name": "Medical records transferred to trial site",
+        "checked": false,
+        "date": null
+      },
+      {
+        "name": "First trial site appt date",
+        "checked": false,
+        "date": null
+      },
+      {
+        "name": "Patient consent to clinical trial",
+        "checked": false,
+        "date": null
+      },
+      {
+        "name": "Enrolled in trial",
+        "checked": false,
+        "date": null
+      },
+      {
+        "name": "Randomized",
+        "checked": false,
+        "date": null
+      },
+      {
+        "name": "Billed to sponsor",
+        "checked": false,
+        "date": null
+      }
+    ],
+    "provide_navigation_services": true,
+    "provide_retention_services": true,
+    "provider_desired_appointment_start_date": "2024-05-21",
+    "provider_desired_appointment_end_date": "2024-07-09",
+    "patient_appointment_date": "2024-05-28",
+    "has_patient_declined_appointment": false,
+    "has_patient_declined_navigation": false,
+    "expected_patient_end_date": "2024-08-13",
+    "trial_criteria": "Inclusion Criteria:\n\nHistologically confirmed prostate adenocarcinoma by biopsy within 1 year (365 days) from registration. The most recent biopsy will determine eligibility\nNational Cancer Center Network (NCCN) intermediate risk prostate cancer, defined as clinical T2b-T2c, Gleason 7, or PSA 10-20 ng/mL. Patients who only have radiographic evidence of T3 disease (i.e. extracapsular extension, or seminal vesical invasion radiographically) will not be excluded.\n\nAble to characterize the number of unfavorable intermediate risk factors below:\n\n2-3 intermediate risk factors\n\nT2b-T2c\nGleason 7\nPSA 10-20 ng/mL\nGleason 4+3 disease\nPercent positive cores ≥ 50%\nTissue available for submission for Decipher genomic score from archived tissue. Patients who had tissue sent to Decipher but did not have sufficient tissue for processing will not be excluded. Patients who already have a Decipher score must present official report documentation.\nAble to undergo radiation therapy with curative intent\nAge ≥ 18 at the time of consent.\nDemonstrate adequate organ function (hematologic, renal, hepatic) within 3 months of registration\nSystem Laboratory Value\n\nHematological:\n\nPlatelet count (plt) ≥ 100,000/ µL\nHemoglobin (Hgb) ≥ 9 g/dL\nAbsolute neutrophil count (ANC) ≥ 1000 cells/µL\n\nRenal:\n\nGlomerular filtration rate (GFR) ≥ 45 mL/min\n\nCKD-EPI equation will be used to calculate GFR\n\nHepatic and Other:\n\nBilirubin ≤ 1.5 × upper limit of normal (ULN)\n\nIn subjects with Gilbert's syndrome, if total bilirubin is >1.5 × ULN, measure direct and indirect bilirubin; if direct bilirubin is ≤1.5 × ULN, subject may be eligible\nAspartate aminotransferase (AST) ≤ 2.5 × ULN\nAlanine aminotransferase (ALT) ≤ 2.5 × ULN\nSerum Albumin > 3.0 g/dL\nSerum potassium ≥ 3.5 mmol/L\n\nEndocrine:\n\nTestosterone ≥ 150 ng/dL\nEastern Cooperative Oncology Group (ECOG) performance status of 0-1\nGood erectile function, as assessed by \"firm enough for masturbation or foreplay\" or \"firm enough for intercourse\" response to the question \"How would you describe the usual quality of your erections during the past 4 weeks\" on the EPIC-26 questionnaire\nAgrees to use a condom and another effective method of birth control if he is having sex with a woman of childbearing potential (defined as a premenopausal female capable of becoming pregnant) OR agrees to use a condom if he is having sex with a woman who is pregnant while on study drug and for 3 months following the last dose of study drug. It is recommended that men who have had a vasectomy more than a year prior to trial registration use a condom. Must also agree not to donate sperm.\nAbility to understand and comply with study procedures for the entire length of the study as determined by the site investigator or protocol designee\nWritten informed consent and HIPAA authorization for release of personal health information prior to registration. \"Note\": HIPAA authorization may be included in the informed consent or obtained separately. Subject must have the ability to understand and willingness to sign the written informed consent document.\nAbility to swallow pills.\nFor patients in whom SBRT/combination RT stratification is pre-specified, prostate volume as determined by MRI, CT, or ultrasound to be less than 90 cc.\n\nExclusion Criteria:\n\nPrior surgical, cryotherapy, or high-intensity focused ultrasound for prostate cancer\nPrior orchiectomy or hormonal therapy (gonadotropin releasing hormone (GnRH) agonists, non-steroidal anti-androgens)\nPrior treatment with a first generation AR inhibitor (e.g. bicalutamide, flutamide, nilutamide, cyproterone acetate) or second generation AR inhibitor (e.g.Enzalutamide, Apalutamide, or Darolutamide)\nPrior treatment with other investigational AR inhibitors, CYP17 enzyme inhibitor such as abiraterone acetate, TAK-700, or oral ketoconazole longer than 28 days\nPrior use of estrogens; patients who have used testosterone injections must have ceased utilization within 90 days prior to screening testosterone. Patients who have used any other type of testosterone supplementation (e.g. patches) must have ceased utilization within 45 days prior to screening testosterone.\nUse of 5-α reductase inhibitors (finasteride, dutasteride) within 28 days of randomization.\nPrior radiation therapy that would result in overlap of current radiation therapy fields\nPrior chemotherapy for prostate cancer\nClinically positive lymph nodes by imaging, sampling, or dissection. Patients with lymph nodes greater than 1.5 cm on short axis will require a negative biopsy for eligibility.\nMetastatic disease, as assessed by abdominal or pelvic computed tomography (CT) or other imaging modality. Patients with 3 intermediate risk factors will require a CT abdomen/pelvis and a bone scan or PET imaging (PSMA PET/CT, fluciclovine PET/CT, etc.).\nErectile aids other than oral phosphodiesterase (PDE)-5 inhibitors\nHistory of any of the following: Severe or unstable angina, myocardial infarction, symptomatic congestive heart failure New York Heart Association (NYHA) class III or IV, arterial or venous thromboembolic events (e.g., pulmonary embolism, cerebrovascular accident including transient ischemic attacks), clinically significant ventricular arrhythmias, moderate or severe hepatic impairment (Child Pugh Class B or C), viral hepatitis, or human immunodeficiency virus within 6 months prior to randomization.\nCurrent untreated hypertension (systolic >= 160 mmHg or diastolic >= 100 mmHg). Patients with one blood pressure reading with systolic < 160 mmHg and diastolic < 100 mmHg within 90 days of registration would be eligible for study.\n\nIndividuals with a history of another malignancy are not eligible if:\n\nThe cancer is under active treatment\nThe cancer can be seen on radiology scans\nIf they are off cancer treatment, but in the opinion of their oncologist, have a high risk of relapse within 5 years.\nHistory of allergic reactions attributed to compounds of similar chemical or biologic composition to study drugs\nUncontrolled intercurrent illness including, but not limited to, ongoing or active infection (NCI-CTCAE version 5.0 Grade 2), psychiatric illness or social situations that would limit compliance with study requirement\nAny condition that, in the opinion of the site investigator, would preclude participation in this study",
+    "patient_meets_all_inclusion_criteria": true,
+    "inclusion_criteria_notes": "Histologically confirmed prostate adenocarcinoma by biopsy within 1 year (365 days) from registration. The most recent biopsy will determine eligibility",
+    "patient_meets_any_exclusion_criteria": true,
+    "exclusion_criteria_notes": "Metastatic disease, as assessed by abdominal or pelvic computed tomography (CT) or other imaging modality. Patients with 3 intermediate risk factors will require a CT abdomen/pelvis and a bone scan or PET imaging (PSMA PET/CT, fluciclovine PET/CT, etc.).",
+    "sponsored_trial_acronym": "MonumenTAL-3",
+    "sponsored_trial_name": "A Study Comparing Talquetamab in Combination With Daratumumab or in Combination With Daratumumab and Pomalidomide Versus Daratumumab in Combination With Pomalidomide and Dexamethasone in Participants With Multiple Myeloma That Returns After Treatment or is Resistant to Treatment",
+    "location_name": "Huntsman Cancer Institute",
+    "location_address_city_name": "Salt Lake City",
+    "location_address_state_code": "UT",
+    "provider_first_name": "Gandalf",
+    "provider_last_name": "Greyhame",
+    "provider_email": "gandalf@middleearth.co.uk",
+    "provider_phone_number": "4132108112",
+    "provider_tl_practice_uuid": "fff30304-1309-48d5-a67a-37825400f43d",
+    "provider_practice_name": "Shire Oncology",
+    "provider_practice_address_line_1": "Brandy Hall",
+    "provider_practice_address_line_2": "2nd Fl",
+    "provider_practice_address_city_name": "Buckland",
+    "provider_practice_address_zip5_code": "01002",
+    "provider_practice_address_state_code": "MA",
+    "navigator_first_name": "Omar",
+    "navigator_last_name": "Mehmood"
+  },
+  {
+    "patient_first_name": "The",
+    "patient_last_name": "Balrog",
+    "patient_dob": "1901-10-31",
+    "patient_sex": null,
+    "patient_race": null,
+    "patient_ethnicity": null,
+    "patient_address_line_1": "Mines of Moria",
+    "patient_address_line_2": "The deep",
+    "patient_address_city_name": "Misty Mountains",
+    "patient_address_state_code": "NH",
+    "patient_address_zip5_code": "03063",
+    "patient_timezone": "eastern",
+    "patient_email": null,
+    "patient_phone_number": "6666666666",
+    "patient_caregiver_name": null,
+    "patient_caregiver_email": null,
+    "patient_caregiver_phone_number": null,
+    "patient_id": "MiddleEarth_002",
+    "patient_sponsor_id": null,
+    "patient_mrn": null,
+    "tl_sponsored_trial_uuid": "d610cc1e-3008-462b-bcaa-7fe2300832db",
+    "tl_sponsored_trial_location_uuid": "dd69b9f7-f6f4-4d9d-b823-d9958fe83da4",
+    "tl_provider_uuid": "afeeed69-1309-48d5-a67a-37825400fa6d",
+    "tl_ally_navigator_uuid": "0f113046-1309-48d5-a67a-37825400f057",
+    "patient_insurance_type": "none",
+    "sdoh_services": {
+      "utilized": true,
+      "services": [
+        {
+          "name": "Transportation",
+          "checked": false
+        },
+        {
+          "name": "Lodging",
+          "checked": false
+        },
+        {
+          "name": "Food security",
+          "checked": false
+        },
+        {
+          "name": "Other",
+          "checked": false
+        }
+      ]
+    },
+    "tl_tracked_referral_uuid": "9034a466-1382-4999-8999-728193fe83ab",
+    "trial_type": "interventional",
+    "referral_status": "Seen at trial site",
+    "status_modified_at": "2024-04-30 16:39:17.238",
+    "status_modified_by_full_name": "Thisisa Fakeuser",
+    "status_modified_by_uuid": "5e3cc3cc-c80a-496e-a00a-08424e9446e9",
+    "status_modified_reason": null,
+    "has_documentation_files": false,
+    "documentation_reviewed_at": null,
+    "documentation_reviewed_by_full_name": null,
+    "documentation_reviewed_by_uuid": null,
+    "is_patient_unresponsive": false,
+    "status_date": "2024-04-30",
+    "referral_notes": null,
+    "referral_source": "Box",
+    "referral_last_updated": "2024-04-30 16:39:17.238",
+    "referred_by_full_name": "Kirsten Lindsmith",
+    "date_of_referral": "2024-03-28",
+    "operations_next_follow_up_date": null,
+    "operations_next_steps": [
+      {
+        "name": "Contacted provider for records",
+        "checked": true,
+        "date": "2024-03-31"
+      },
+      {
+        "name": "Received medical records",
+        "checked": true,
+        "date": "2024-04-06"
+      },
+      {
+        "name": "Verified medical records",
+        "checked": true,
+        "date": null,
+        "hideDate": true
+      },
+      {
+        "name": "Contacted patient",
+        "checked": true,
+        "date": "2024-04-08"
+      },
+      {
+        "name": "Received TOU consent",
+        "checked": true,
+        "date": null,
+        "hideDate": true
+      },
+      {
+        "name": "Contacted trial site",
+        "checked": true,
+        "date": null
+      },
+      {
+        "name": "Medical records transferred to trial site",
+        "checked": false,
+        "date": null
+      },
+      {
+        "name": "First trial site appt date",
+        "checked": false,
+        "date": null
+      },
+      {
+        "name": "Patient consent to clinical trial",
+        "checked": false,
+        "date": null
+      },
+      {
+        "name": "Enrolled in trial",
+        "checked": false,
+        "date": null
+      },
+      {
+        "name": "Randomized",
+        "checked": false,
+        "date": null
+      },
+      {
+        "name": "Billed to sponsor",
+        "checked": false,
+        "date": null
+      }
+    ],
+    "provide_navigation_services": false,
+    "provide_retention_services": false,
+    "provider_desired_appointment_start_date": null,
+    "provider_desired_appointment_end_date": null,
+    "patient_appointment_date": null,
+    "has_patient_declined_appointment": null,
+    "has_patient_declined_navigation": null,
+    "expected_patient_end_date": null,
+    "trial_criteria": "Inclusion Criteria:\n\nHistologically confirmed prostate adenocarcinoma by biopsy within 1 year (365 days) from registration. The most recent biopsy will determine eligibility\nNational Cancer Center Network (NCCN) intermediate risk prostate cancer, defined as clinical T2b-T2c, Gleason 7, or PSA 10-20 ng/mL. Patients who only have radiographic evidence of T3 disease (i.e. extracapsular extension, or seminal vesical invasion radiographically) will not be excluded.\n\nAble to characterize the number of unfavorable intermediate risk factors below:\n\n2-3 intermediate risk factors\n\nT2b-T2c\nGleason 7\nPSA 10-20 ng/mL\nGleason 4+3 disease\nPercent positive cores ≥ 50%\nTissue available for submission for Decipher genomic score from archived tissue. Patients who had tissue sent to Decipher but did not have sufficient tissue for processing will not be excluded. Patients who already have a Decipher score must present official report documentation.\nAble to undergo radiation therapy with curative intent\nAge ≥ 18 at the time of consent.\nDemonstrate adequate organ function (hematologic, renal, hepatic) within 3 months of registration\nSystem Laboratory Value\n\nHematological:\n\nPlatelet count (plt) ≥ 100,000/ µL\nHemoglobin (Hgb) ≥ 9 g/dL\nAbsolute neutrophil count (ANC) ≥ 1000 cells/µL\n\nRenal:\n\nGlomerular filtration rate (GFR) ≥ 45 mL/min\n\nCKD-EPI equation will be used to calculate GFR\n\nHepatic and Other:\n\nBilirubin ≤ 1.5 × upper limit of normal (ULN)\n\nIn subjects with Gilbert's syndrome, if total bilirubin is >1.5 × ULN, measure direct and indirect bilirubin; if direct bilirubin is ≤1.5 × ULN, subject may be eligible\nAspartate aminotransferase (AST) ≤ 2.5 × ULN\nAlanine aminotransferase (ALT) ≤ 2.5 × ULN\nSerum Albumin > 3.0 g/dL\nSerum potassium ≥ 3.5 mmol/L\n\nEndocrine:\n\nTestosterone ≥ 150 ng/dL\nEastern Cooperative Oncology Group (ECOG) performance status of 0-1\nGood erectile function, as assessed by \"firm enough for masturbation or foreplay\" or \"firm enough for intercourse\" response to the question \"How would you describe the usual quality of your erections during the past 4 weeks\" on the EPIC-26 questionnaire\nAgrees to use a condom and another effective method of birth control if he is having sex with a woman of childbearing potential (defined as a premenopausal female capable of becoming pregnant) OR agrees to use a condom if he is having sex with a woman who is pregnant while on study drug and for 3 months following the last dose of study drug. It is recommended that men who have had a vasectomy more than a year prior to trial registration use a condom. Must also agree not to donate sperm.\nAbility to understand and comply with study procedures for the entire length of the study as determined by the site investigator or protocol designee\nWritten informed consent and HIPAA authorization for release of personal health information prior to registration. \"Note\": HIPAA authorization may be included in the informed consent or obtained separately. Subject must have the ability to understand and willingness to sign the written informed consent document.\nAbility to swallow pills.\nFor patients in whom SBRT/combination RT stratification is pre-specified, prostate volume as determined by MRI, CT, or ultrasound to be less than 90 cc.\n\nExclusion Criteria:\n\nPrior surgical, cryotherapy, or high-intensity focused ultrasound for prostate cancer\nPrior orchiectomy or hormonal therapy (gonadotropin releasing hormone (GnRH) agonists, non-steroidal anti-androgens)\nPrior treatment with a first generation AR inhibitor (e.g. bicalutamide, flutamide, nilutamide, cyproterone acetate) or second generation AR inhibitor (e.g.Enzalutamide, Apalutamide, or Darolutamide)\nPrior treatment with other investigational AR inhibitors, CYP17 enzyme inhibitor such as abiraterone acetate, TAK-700, or oral ketoconazole longer than 28 days\nPrior use of estrogens; patients who have used testosterone injections must have ceased utilization within 90 days prior to screening testosterone. Patients who have used any other type of testosterone supplementation (e.g. patches) must have ceased utilization within 45 days prior to screening testosterone.\nUse of 5-α reductase inhibitors (finasteride, dutasteride) within 28 days of randomization.\nPrior radiation therapy that would result in overlap of current radiation therapy fields\nPrior chemotherapy for prostate cancer\nClinically positive lymph nodes by imaging, sampling, or dissection. Patients with lymph nodes greater than 1.5 cm on short axis will require a negative biopsy for eligibility.\nMetastatic disease, as assessed by abdominal or pelvic computed tomography (CT) or other imaging modality. Patients with 3 intermediate risk factors will require a CT abdomen/pelvis and a bone scan or PET imaging (PSMA PET/CT, fluciclovine PET/CT, etc.).\nErectile aids other than oral phosphodiesterase (PDE)-5 inhibitors\nHistory of any of the following: Severe or unstable angina, myocardial infarction, symptomatic congestive heart failure New York Heart Association (NYHA) class III or IV, arterial or venous thromboembolic events (e.g., pulmonary embolism, cerebrovascular accident including transient ischemic attacks), clinically significant ventricular arrhythmias, moderate or severe hepatic impairment (Child Pugh Class B or C), viral hepatitis, or human immunodeficiency virus within 6 months prior to randomization.\nCurrent untreated hypertension (systolic >= 160 mmHg or diastolic >= 100 mmHg). Patients with one blood pressure reading with systolic < 160 mmHg and diastolic < 100 mmHg within 90 days of registration would be eligible for study.\n\nIndividuals with a history of another malignancy are not eligible if:\n\nThe cancer is under active treatment\nThe cancer can be seen on radiology scans\nIf they are off cancer treatment, but in the opinion of their oncologist, have a high risk of relapse within 5 years.\nHistory of allergic reactions attributed to compounds of similar chemical or biologic composition to study drugs\nUncontrolled intercurrent illness including, but not limited to, ongoing or active infection (NCI-CTCAE version 5.0 Grade 2), psychiatric illness or social situations that would limit compliance with study requirement\nAny condition that, in the opinion of the site investigator, would preclude participation in this study",
+    "patient_meets_all_inclusion_criteria": null,
+    "inclusion_criteria_notes": null,
+    "patient_meets_any_exclusion_criteria": null,
+    "exclusion_criteria_notes": null,
+    "sponsored_trial_acronym": "MonumenTAL-3",
+    "sponsored_trial_name": "A Study Comparing Talquetamab in Combination With Daratumumab or in Combination With Daratumumab and Pomalidomide Versus Daratumumab in Combination With Pomalidomide and Dexamethasone in Participants With Multiple Myeloma That Returns After Treatment or is Resistant to Treatment",
+    "location_name": "UC Davis Comprehensive Cancer Center",
+    "location_address_city_name": "Sacramento",
+    "location_address_state_code": "CA",
+    "provider_first_name": "Morgoth",
+    "provider_last_name": "Bauglir",
+    "provider_email": null,
+    "provider_phone_number": null,
+    "provider_tl_practice_uuid": "548eed69-1309-48d5-a67a-37825400f4ee",
+    "provider_practice_name": "Mordor Oncological Services",
+    "provider_practice_address_line_1": "Mordor",
+    "provider_practice_address_line_2": "Where the shadows lie",
+    "provider_practice_address_city_name": "Southlands",
+    "provider_practice_address_zip5_code": "06106",
+    "provider_practice_address_state_code": "CT",
+    "navigator_first_name": "Kirsten",
+    "navigator_last_name": "Lindsmith"
+  },
+  {
+    "patient_first_name": "Éowyn",
+    "patient_last_name": "Eorl",
+    "patient_dob": "1995-05-30",
+    "patient_sex": "female",
+    "patient_race": "white",
+    "patient_ethnicity": "not_hispanic_or_latino",
+    "patient_address_line_1": "Great Hall",
+    "patient_address_line_2": "Suite 2",
+    "patient_address_city_name": "Edoras",
+    "patient_address_state_code": "VT",
+    "patient_address_zip5_code": "05301",
+    "patient_timezone": "eastern",
+    "patient_email": "eowyn@ridersofrohan.co.uk",
+    "patient_phone_number": "9999999999",
+    "patient_caregiver_name": "Théoden King",
+    "patient_caregiver_email": "theoden@ridersofrohan.co.uk",
+    "patient_caregiver_phone_number": "9999990000",
+    "patient_id": "MiddleEarth_003",
+    "patient_sponsor_id": "Rohan_001",
+    "patient_mrn": "3241-829310-1232",
+    "tl_sponsored_trial_uuid": "541335c6-5399-49f5-ba77-836f7b824518",
+    "tl_sponsored_trial_location_uuid": "d2af9fde-0ca9-4ebf-968e-6d003f40ff58",
+    "tl_provider_uuid": "33gggd69-1309-48d5-a67a-37825400fa64",
+    "tl_ally_navigator_uuid": "42eeed69-1309-48d5-a67a-37825400fa22",
+    "patient_insurance_type": "tricare_va",
+    "sdoh_services": {
+      "utilized": null,
+      "services": []
+    },
+    "tl_tracked_referral_uuid": "0000b466-1382-4999-8999-222393fe83ab",
+    "trial_type": "observational",
+    "referral_status": "Trial consent obtained",
+    "status_modified_at": "2024-04-30 16:39:17.238",
+    "status_modified_by_full_name": "Thisisa Fakeuser",
+    "status_modified_by_uuid": "2dda8706-3a98-4f21-bc98-f8c62af0dc64",
+    "status_modified_reason": "This is a test reason just to show what text should look like here",
+    "is_patient_unresponsive": false,
+    "status_date": "2024-04-30",
+    "has_documentation_files": true,
+    "documentation_reviewed_at": "2024-04-28",
+    "documentation_reviewed_by_full_name": "Adifferent Fakeuser",
+    "documentation_reviewed_by_uuid": "09d9cac7-7940-44e7-88fd-a7fc3a771ff5",
+    "referral_notes": "Prefers horses to cars",
+    "referral_source": "Fax",
+    "referral_last_updated": "2024-04-30 16:39:17.238",
+    "referred_by_full_name": "Jakub Sobacki",
+    "date_of_referral": "2024-03-29",
+    "operations_next_follow_up_date": "2024-05-15",
+    "operations_next_steps": [
+      {
+        "name": "Contacted provider for records",
+        "checked": true,
+        "date": "2024-04-05"
+      },
+      {
+        "name": "Received medical records",
+        "checked": true,
+        "date": "2024-04-09"
+      },
+      {
+        "name": "Verified medical records",
+        "checked": true,
+        "date": null,
+        "hideDate": true
+      },
+      {
+        "name": "Contacted patient",
+        "checked": true,
+        "date": "2024-04-06"
+      },
+      {
+        "name": "Received TOU consent",
+        "checked": true,
+        "date": null,
+        "hideDate": true
+      },
+      {
+        "name": "Contacted trial site",
+        "checked": false,
+        "date": null
+      },
+      {
+        "name": "Medical records transferred to trial site",
+        "checked": false,
+        "date": null
+      },
+      {
+        "name": "First trial site appt date",
+        "checked": false,
+        "date": null
+      },
+      {
+        "name": "Patient consent to clinical trial",
+        "checked": false,
+        "date": null
+      },
+      {
+        "name": "Enrolled in trial",
+        "checked": false,
+        "date": null
+      },
+      {
+        "name": "*Date confirmed saliva sample submitted",
+        "checked": false,
+        "date": null
+      },
+      {
+        "name": "*PCCTC confirmed",
+        "checked": false,
+        "date": null
+      },
+      {
+        "name": "*PCCTC Status Update - Date Sample Received",
+        "checked": false,
+        "date": null
+      },
+      {
+        "name": "*Date Baseline Medical Records Requested",
+        "checked": false,
+        "date": null
+      },
+      {
+        "name": "*Date Baseline Medical Records Sent to PCCTC",
+        "checked": false,
+        "date": null
+      },
+      {
+        "name": "Billed to sponsor",
+        "checked": false,
+        "date": null
+      }
+    ],
+    "provide_navigation_services": true,
+    "provide_retention_services": true,
+    "provider_desired_appointment_start_date": "2024-05-21",
+    "provider_desired_appointment_end_date": "2024-07-09",
+    "patient_appointment_date": "2024-05-28",
+    "has_patient_declined_appointment": false,
+    "has_patient_declined_navigation": false,
+    "expected_patient_end_date": "2024-08-13",
+    "trial_criteria": "Inclusion Criteria:\n\nHistologically confirmed prostate adenocarcinoma by biopsy within 1 year (365 days) from registration. The most recent biopsy will determine eligibility\nNational Cancer Center Network (NCCN) intermediate risk prostate cancer, defined as clinical T2b-T2c, Gleason 7, or PSA 10-20 ng/mL. Patients who only have radiographic evidence of T3 disease (i.e. extracapsular extension, or seminal vesical invasion radiographically) will not be excluded.\n\nAble to characterize the number of unfavorable intermediate risk factors below:\n\n2-3 intermediate risk factors\n\nT2b-T2c\nGleason 7\nPSA 10-20 ng/mL\nGleason 4+3 disease\nPercent positive cores ≥ 50%\nTissue available for submission for Decipher genomic score from archived tissue. Patients who had tissue sent to Decipher but did not have sufficient tissue for processing will not be excluded. Patients who already have a Decipher score must present official report documentation.\nAble to undergo radiation therapy with curative intent\nAge ≥ 18 at the time of consent.\nDemonstrate adequate organ function (hematologic, renal, hepatic) within 3 months of registration\nSystem Laboratory Value\n\nHematological:\n\nPlatelet count (plt) ≥ 100,000/ µL\nHemoglobin (Hgb) ≥ 9 g/dL\nAbsolute neutrophil count (ANC) ≥ 1000 cells/µL\n\nRenal:\n\nGlomerular filtration rate (GFR) ≥ 45 mL/min\n\nCKD-EPI equation will be used to calculate GFR\n\nHepatic and Other:\n\nBilirubin ≤ 1.5 × upper limit of normal (ULN)\n\nIn subjects with Gilbert's syndrome, if total bilirubin is >1.5 × ULN, measure direct and indirect bilirubin; if direct bilirubin is ≤1.5 × ULN, subject may be eligible\nAspartate aminotransferase (AST) ≤ 2.5 × ULN\nAlanine aminotransferase (ALT) ≤ 2.5 × ULN\nSerum Albumin > 3.0 g/dL\nSerum potassium ≥ 3.5 mmol/L\n\nEndocrine:\n\nTestosterone ≥ 150 ng/dL\nEastern Cooperative Oncology Group (ECOG) performance status of 0-1\nGood erectile function, as assessed by \"firm enough for masturbation or foreplay\" or \"firm enough for intercourse\" response to the question \"How would you describe the usual quality of your erections during the past 4 weeks\" on the EPIC-26 questionnaire\nAgrees to use a condom and another effective method of birth control if he is having sex with a woman of childbearing potential (defined as a premenopausal female capable of becoming pregnant) OR agrees to use a condom if he is having sex with a woman who is pregnant while on study drug and for 3 months following the last dose of study drug. It is recommended that men who have had a vasectomy more than a year prior to trial registration use a condom. Must also agree not to donate sperm.\nAbility to understand and comply with study procedures for the entire length of the study as determined by the site investigator or protocol designee\nWritten informed consent and HIPAA authorization for release of personal health information prior to registration. \"Note\": HIPAA authorization may be included in the informed consent or obtained separately. Subject must have the ability to understand and willingness to sign the written informed consent document.\nAbility to swallow pills.\nFor patients in whom SBRT/combination RT stratification is pre-specified, prostate volume as determined by MRI, CT, or ultrasound to be less than 90 cc.\n\nExclusion Criteria:\n\nPrior surgical, cryotherapy, or high-intensity focused ultrasound for prostate cancer\nPrior orchiectomy or hormonal therapy (gonadotropin releasing hormone (GnRH) agonists, non-steroidal anti-androgens)\nPrior treatment with a first generation AR inhibitor (e.g. bicalutamide, flutamide, nilutamide, cyproterone acetate) or second generation AR inhibitor (e.g.Enzalutamide, Apalutamide, or Darolutamide)\nPrior treatment with other investigational AR inhibitors, CYP17 enzyme inhibitor such as abiraterone acetate, TAK-700, or oral ketoconazole longer than 28 days\nPrior use of estrogens; patients who have used testosterone injections must have ceased utilization within 90 days prior to screening testosterone. Patients who have used any other type of testosterone supplementation (e.g. patches) must have ceased utilization within 45 days prior to screening testosterone.\nUse of 5-α reductase inhibitors (finasteride, dutasteride) within 28 days of randomization.\nPrior radiation therapy that would result in overlap of current radiation therapy fields\nPrior chemotherapy for prostate cancer\nClinically positive lymph nodes by imaging, sampling, or dissection. Patients with lymph nodes greater than 1.5 cm on short axis will require a negative biopsy for eligibility.\nMetastatic disease, as assessed by abdominal or pelvic computed tomography (CT) or other imaging modality. Patients with 3 intermediate risk factors will require a CT abdomen/pelvis and a bone scan or PET imaging (PSMA PET/CT, fluciclovine PET/CT, etc.).\nErectile aids other than oral phosphodiesterase (PDE)-5 inhibitors\nHistory of any of the following: Severe or unstable angina, myocardial infarction, symptomatic congestive heart failure New York Heart Association (NYHA) class III or IV, arterial or venous thromboembolic events (e.g., pulmonary embolism, cerebrovascular accident including transient ischemic attacks), clinically significant ventricular arrhythmias, moderate or severe hepatic impairment (Child Pugh Class B or C), viral hepatitis, or human immunodeficiency virus within 6 months prior to randomization.\nCurrent untreated hypertension (systolic >= 160 mmHg or diastolic >= 100 mmHg). Patients with one blood pressure reading with systolic < 160 mmHg and diastolic < 100 mmHg within 90 days of registration would be eligible for study.\n\nIndividuals with a history of another malignancy are not eligible if:\n\nThe cancer is under active treatment\nThe cancer can be seen on radiology scans\nIf they are off cancer treatment, but in the opinion of their oncologist, have a high risk of relapse within 5 years.\nHistory of allergic reactions attributed to compounds of similar chemical or biologic composition to study drugs\nUncontrolled intercurrent illness including, but not limited to, ongoing or active infection (NCI-CTCAE version 5.0 Grade 2), psychiatric illness or social situations that would limit compliance with study requirement\nAny condition that, in the opinion of the site investigator, would preclude participation in this study",
+    "patient_meets_all_inclusion_criteria": true,
+    "inclusion_criteria_notes": "Histologically confirmed prostate adenocarcinoma by biopsy within 1 year (365 days) from registration. The most recent biopsy will determine eligibility",
+    "patient_meets_any_exclusion_criteria": true,
+    "exclusion_criteria_notes": "Metastatic disease, as assessed by abdominal or pelvic computed tomography (CT) or other imaging modality. Patients with 3 intermediate risk factors will require a CT abdomen/pelvis and a bone scan or PET imaging (PSMA PET/CT, fluciclovine PET/CT, etc.).",
+    "sponsored_trial_acronym": "SunRISe-3",
+    "sponsored_trial_name": "A Study of TAR-200 in Combination With Cetrelimab or TAR-200 Alone Versus Intravesical Bacillus Calmette-Guérin (BCG) in Participants With BCG-naïve High-risk Non-muscle Invasive Bladder Cancer",
+    "location_name": "Providence Medical Foundation",
+    "location_address_city_name": "Santa Rosa",
+    "location_address_state_code": "CA",
+    "provider_first_name": "Meriadoc",
+    "provider_last_name": "Brandybuck",
+    "provider_email": "merry@brandyhall.co.uk",
+    "provider_phone_number": "7777777777",
+    "provider_tl_practice_uuid": "444eed69-1309-48d5-a67a-37825400f4e2",
+    "provider_practice_name": "Moria Oncology",
+    "provider_practice_address_line_1": "Dimrill Dale",
+    "provider_practice_address_line_2": "Top of the hill",
+    "provider_practice_address_city_name": "Misty Mountains",
+    "provider_practice_address_zip5_code": "04101",
+    "provider_practice_address_state_code": "ME",
+    "navigator_first_name": "Matt",
+    "navigator_last_name": "Oberman"
+  },
+  {
+    "patient_first_name": "Arwen",
+    "patient_last_name": "Evenstar",
+    "patient_dob": "1910-02-14",
+    "patient_sex": null,
+    "patient_race": null,
+    "patient_ethnicity": null,
+    "patient_address_line_1": "Bruinen River",
+    "patient_address_line_2": null,
+    "patient_address_city_name": "Misty Mountains",
+    "patient_address_state_code": "ME",
+    "patient_address_zip5_code": "04358",
+    "patient_timezone": null,
+    "patient_email": "arwen@rivendell.co.uk",
+    "patient_phone_number": null,
+    "patient_caregiver_name": null,
+    "patient_caregiver_email": null,
+    "patient_caregiver_phone_number": null,
+    "patient_id": "MiddleEarth_004",
+    "patient_sponsor_id": null,
+    "patient_mrn": null,
+    "tl_sponsored_trial_uuid": "d01d0cc6-511d-4865-8209-4f913f0900f4",
+    "tl_sponsored_trial_location_uuid": "aeb2682f-5afa-4bb4-9b0f-227d8dc452a0",
+    "tl_provider_uuid": "22eeed69-1309-48d5-a67a-37825400fa64",
+    "tl_ally_navigator_uuid": "42eeed69-1309-48d5-a67a-37825400fa22",
+    "patient_insurance_type": "private",
+    "sdoh_services": {
+      "utilized": null,
+      "services": []
+    },
+    "tl_tracked_referral_uuid": "1223b466-1382-4999-8999-333393fe83ab",
+    "trial_type": "observational",
+    "referral_status": "Enrolled in trial",
+    "status_modified_at": "2024-04-30 16:39:17.238",
+    "status_modified_by_full_name": "Thisisa Fakeuser",
+    "status_modified_by_uuid": "4af90007-3056-4135-814d-6320ecf22cc4",
+    "status_modified_reason": null,
+    "is_patient_unresponsive": false,
+    "status_date": "2024-04-30",
+    "has_documentation_files": false,
+    "documentation_reviewed_at": null,
+    "documentation_reviewed_by_full_name": null,
+    "documentation_reviewed_by_uuid": null,
+    "referral_notes": null,
+    "referral_source": "Email",
+    "referral_last_updated": "2024-04-30 15:39:17.238",
+    "referred_by_full_name": "Jakub Sobacki",
+    "date_of_referral": "2024-03-30",
+    "operations_next_follow_up_date": null,
+    "operations_next_steps": [
+      {
+        "name": "Contacted provider for records",
+        "checked": true,
+        "date": "2024-04-01"
+      },
+      {
+        "name": "Received medical records",
+        "checked": true,
+        "date": "2024-04-06"
+      },
+      {
+        "name": "Verified medical records",
+        "checked": true,
+        "date": null,
+        "hideDate": true
+      },
+      {
+        "name": "Contacted patient",
+        "checked": true,
+        "date": "2024-04-05"
+      },
+      {
+        "name": "Received TOU consent",
+        "checked": true,
+        "date": null,
+        "hideDate": true
+      },
+      {
+        "name": "Contacted trial site",
+        "checked": false,
+        "date": null
+      },
+      {
+        "name": "Medical records transferred to trial site",
+        "checked": false,
+        "date": null
+      },
+      {
+        "name": "First trial site appt date",
+        "checked": false,
+        "date": null
+      },
+      {
+        "name": "Patient consent to clinical trial",
+        "checked": false,
+        "date": null
+      },
+      {
+        "name": "Enrolled in trial",
+        "checked": false,
+        "date": null
+      },
+      {
+        "name": "*Date confirmed saliva sample submitted",
+        "checked": false,
+        "date": null
+      },
+      {
+        "name": "*PCCTC confirmed",
+        "checked": false,
+        "date": null
+      },
+      {
+        "name": "*PCCTC Status Update - Date Sample Received",
+        "checked": false,
+        "date": null
+      },
+      {
+        "name": "*Date Baseline Medical Records Requested",
+        "checked": false,
+        "date": null
+      },
+      {
+        "name": "*Date Baseline Medical Records Sent to PCCTC",
+        "checked": false,
+        "date": null
+      },
+      {
+        "name": "Billed to sponsor",
+        "checked": false,
+        "date": null
+      }
+    ],
+    "provide_navigation_services": false,
+    "provide_retention_services": false,
+    "provider_desired_appointment_start_date": null,
+    "provider_desired_appointment_end_date": null,
+    "patient_appointment_date": null,
+    "has_patient_declined_appointment": null,
+    "has_patient_declined_navigation": null,
+    "expected_patient_end_date": null,
+    "trial_criteria": "Inclusion Criteria:\n\nHistologically confirmed prostate adenocarcinoma by biopsy within 1 year (365 days) from registration. The most recent biopsy will determine eligibility\nNational Cancer Center Network (NCCN) intermediate risk prostate cancer, defined as clinical T2b-T2c, Gleason 7, or PSA 10-20 ng/mL. Patients who only have radiographic evidence of T3 disease (i.e. extracapsular extension, or seminal vesical invasion radiographically) will not be excluded.\n\nAble to characterize the number of unfavorable intermediate risk factors below:\n\n2-3 intermediate risk factors\n\nT2b-T2c\nGleason 7\nPSA 10-20 ng/mL\nGleason 4+3 disease\nPercent positive cores ≥ 50%\nTissue available for submission for Decipher genomic score from archived tissue. Patients who had tissue sent to Decipher but did not have sufficient tissue for processing will not be excluded. Patients who already have a Decipher score must present official report documentation.\nAble to undergo radiation therapy with curative intent\nAge ≥ 18 at the time of consent.\nDemonstrate adequate organ function (hematologic, renal, hepatic) within 3 months of registration\nSystem Laboratory Value\n\nHematological:\n\nPlatelet count (plt) ≥ 100,000/ µL\nHemoglobin (Hgb) ≥ 9 g/dL\nAbsolute neutrophil count (ANC) ≥ 1000 cells/µL\n\nRenal:\n\nGlomerular filtration rate (GFR) ≥ 45 mL/min\n\nCKD-EPI equation will be used to calculate GFR\n\nHepatic and Other:\n\nBilirubin ≤ 1.5 × upper limit of normal (ULN)\n\nIn subjects with Gilbert's syndrome, if total bilirubin is >1.5 × ULN, measure direct and indirect bilirubin; if direct bilirubin is ≤1.5 × ULN, subject may be eligible\nAspartate aminotransferase (AST) ≤ 2.5 × ULN\nAlanine aminotransferase (ALT) ≤ 2.5 × ULN\nSerum Albumin > 3.0 g/dL\nSerum potassium ≥ 3.5 mmol/L\n\nEndocrine:\n\nTestosterone ≥ 150 ng/dL\nEastern Cooperative Oncology Group (ECOG) performance status of 0-1\nGood erectile function, as assessed by \"firm enough for masturbation or foreplay\" or \"firm enough for intercourse\" response to the question \"How would you describe the usual quality of your erections during the past 4 weeks\" on the EPIC-26 questionnaire\nAgrees to use a condom and another effective method of birth control if he is having sex with a woman of childbearing potential (defined as a premenopausal female capable of becoming pregnant) OR agrees to use a condom if he is having sex with a woman who is pregnant while on study drug and for 3 months following the last dose of study drug. It is recommended that men who have had a vasectomy more than a year prior to trial registration use a condom. Must also agree not to donate sperm.\nAbility to understand and comply with study procedures for the entire length of the study as determined by the site investigator or protocol designee\nWritten informed consent and HIPAA authorization for release of personal health information prior to registration. \"Note\": HIPAA authorization may be included in the informed consent or obtained separately. Subject must have the ability to understand and willingness to sign the written informed consent document.\nAbility to swallow pills.\nFor patients in whom SBRT/combination RT stratification is pre-specified, prostate volume as determined by MRI, CT, or ultrasound to be less than 90 cc.\n\nExclusion Criteria:\n\nPrior surgical, cryotherapy, or high-intensity focused ultrasound for prostate cancer\nPrior orchiectomy or hormonal therapy (gonadotropin releasing hormone (GnRH) agonists, non-steroidal anti-androgens)\nPrior treatment with a first generation AR inhibitor (e.g. bicalutamide, flutamide, nilutamide, cyproterone acetate) or second generation AR inhibitor (e.g.Enzalutamide, Apalutamide, or Darolutamide)\nPrior treatment with other investigational AR inhibitors, CYP17 enzyme inhibitor such as abiraterone acetate, TAK-700, or oral ketoconazole longer than 28 days\nPrior use of estrogens; patients who have used testosterone injections must have ceased utilization within 90 days prior to screening testosterone. Patients who have used any other type of testosterone supplementation (e.g. patches) must have ceased utilization within 45 days prior to screening testosterone.\nUse of 5-α reductase inhibitors (finasteride, dutasteride) within 28 days of randomization.\nPrior radiation therapy that would result in overlap of current radiation therapy fields\nPrior chemotherapy for prostate cancer\nClinically positive lymph nodes by imaging, sampling, or dissection. Patients with lymph nodes greater than 1.5 cm on short axis will require a negative biopsy for eligibility.\nMetastatic disease, as assessed by abdominal or pelvic computed tomography (CT) or other imaging modality. Patients with 3 intermediate risk factors will require a CT abdomen/pelvis and a bone scan or PET imaging (PSMA PET/CT, fluciclovine PET/CT, etc.).\nErectile aids other than oral phosphodiesterase (PDE)-5 inhibitors\nHistory of any of the following: Severe or unstable angina, myocardial infarction, symptomatic congestive heart failure New York Heart Association (NYHA) class III or IV, arterial or venous thromboembolic events (e.g., pulmonary embolism, cerebrovascular accident including transient ischemic attacks), clinically significant ventricular arrhythmias, moderate or severe hepatic impairment (Child Pugh Class B or C), viral hepatitis, or human immunodeficiency virus within 6 months prior to randomization.\nCurrent untreated hypertension (systolic >= 160 mmHg or diastolic >= 100 mmHg). Patients with one blood pressure reading with systolic < 160 mmHg and diastolic < 100 mmHg within 90 days of registration would be eligible for study.\n\nIndividuals with a history of another malignancy are not eligible if:\n\nThe cancer is under active treatment\nThe cancer can be seen on radiology scans\nIf they are off cancer treatment, but in the opinion of their oncologist, have a high risk of relapse within 5 years.\nHistory of allergic reactions attributed to compounds of similar chemical or biologic composition to study drugs\nUncontrolled intercurrent illness including, but not limited to, ongoing or active infection (NCI-CTCAE version 5.0 Grade 2), psychiatric illness or social situations that would limit compliance with study requirement\nAny condition that, in the opinion of the site investigator, would preclude participation in this study",
+    "patient_meets_all_inclusion_criteria": null,
+    "inclusion_criteria_notes": null,
+    "patient_meets_any_exclusion_criteria": null,
+    "exclusion_criteria_notes": null,
+    "sponsored_trial_acronym": "Acronym",
+    "sponsored_trial_name": "TEST RCT of Niraparib w/ Abiraterone Acetate + Prednisone (AA+P) vs AA+P for mCSPC",
+    "location_name": "San Bernardino Urological Associates",
+    "location_address_city_name": "San Bernardino",
+    "location_address_state_code": "CA",
+    "provider_first_name": "Galadriel",
+    "provider_last_name": "Artanis",
+    "provider_email": null,
+    "provider_phone_number": null,
+    "provider_tl_practice_uuid": "848eed69-1309-48d5-a67a-37825400f438",
+    "provider_practice_name": "Lothlórien Oncology",
+    "provider_practice_address_line_1": "Lórien",
+    "provider_practice_address_line_2": null,
+    "provider_practice_address_city_name": "Misty Mountains",
+    "provider_practice_address_zip5_code": "04358",
+    "provider_practice_address_state_code": "ME",
+    "navigator_first_name": "Matt",
+    "navigator_last_name": "Oberman"
+  }
+]
