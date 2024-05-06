@@ -12,6 +12,8 @@ app.use(express.json());
 //parse URL encoded bodies
 app.use(express.urlencoded({ extended: true }));
 
+app.get('/', (req, res) => res.send('HOOPLA'));
+
 app.post('/send-text', async (req, res) => {
   try {
     const { referral_uuid, text } = req.body;
