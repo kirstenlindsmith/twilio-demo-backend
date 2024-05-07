@@ -3,8 +3,13 @@ const app = express();
 const port = 1337;
 const { knex } = require('./knex');
 const referrals = require('./referrals.json');
-const { twilio_SID, twilio_auth_token, twilio_phone_number } = require('./secrets.json');
-const twilioClient = require('twilio')(twilio_SID, twilio_auth_token);
+const { authMiddleware } = require('./authMiddleware');
+const {
+  DEMO_test_twilio_SID,
+  DEMO_test_twilio_auth_token,
+  twilio_phone_number,
+} = require('./secrets.json');
+const twilioClient = require('twilio')(DEMO_test_twilio_SID, DEMO_test_twilio_auth_token);
 
 //parse JSON bodies
 app.use(express.json());
@@ -12,7 +17,7 @@ app.use(express.json());
 //parse URL encoded bodies
 app.use(express.urlencoded({ extended: true }));
 
-app.get('/', (req, res) => res.send('HOOPLA'));
+app.get('/', (_req, res) => res.send('SOMETHING'));
 
 app.post('/send-text', async (req, res) => {
   try {
@@ -47,10 +52,49 @@ app.post('/send-text', async (req, res) => {
   }
 });
 
-app.post('/receive-text', async (req, res) => {});
+app.post('/receive-text', authMiddleware, async (req, res) => {
+  try {
+    const { From, Body, MessageSid } = req.body;
 
-app.get('/texts', (req, res) => {
-  const { referral_uuid } = req.body;
+    const patientPhoneNumber = From.replace('+1', '');
+    const targetReferral = referrals.find(
+      referral => referral.patient_phone_number === patientPhoneNumber
+    );
+    if (!targetReferral) throw new Error('Invalid patient phone number');
+
+    const sent_by_fullname = `${targetReferral.patient_first_name} ${targetReferral.patient_last_name}`;
+    const sent_by_uuid = targetReferral.tl_tracked_referral_uuid;
+    const referral_uuid = targetReferral.tl_tracked_referral_uuid;
+    const twilio_id = MessageSid;
+    const text = Body;
+
+    await knex('messages').insert({
+      text,
+      sent_by_fullname,
+      sent_by_uuid,
+      twilio_id,
+      referral_uuid,
+    });
+    res.sendStatus(200);
+  } catch (error) {
+    res.status(500).send(`Error processing received text: ${error.message || 'Unknown'}`);
+  }
+});
+
+app.get('/texts/:referral_uuid', async (req, res) => {
+  try {
+    const { referral_uuid } = req.params;
+    const referralTexts = await knex('messages').where({ referral_uuid });
+    res.send(referralTexts);
+  } catch (error) {
+    res
+      .status(500)
+      .send(
+        `Error getting texts for referral ${req.params.referral_uuid}: ${
+          error.message || 'Unknown'
+        }`
+      );
+  }
 });
 
 app.listen(port, () => {
@@ -59,7 +103,7 @@ app.listen(port, () => {
 
 /*
 
-twilio message response:
+twilio response when successfully sending an outgoing text:
 
 {
   body: 'Sent from your Twilio trial account - Hello world',
@@ -84,5 +128,46 @@ twilio message response:
   subresourceUris: {
     media: 'xxxx'
   }
+}
+
+twilio payload to webhook when receiving an incoming text:
+
+BODY -> 
+{
+  ToCountry: 'US',
+  ToState: '',
+  SmsMessageSid: 'identicalAcrossAllThreeVersions',
+  NumMedia: '0',
+  ToCity: '',
+  FromZip: 'xxxxx',
+  SmsSid: 'identicalAcrossAllThreeVersions',
+  FromState: 'xx',
+  SmsStatus: 'received',
+  FromCity: 'xxxxxxx',
+  Body: 'Hi this is a text',
+  FromCountry: 'US',
+  To: '+1xxxxxxxxxx',
+  ToZip: '',
+  NumSegments: '1',
+  MessageSid: 'identicalAcrossAllThreeVersions',
+  AccountSid: 'xxx',
+  From: '+1xxxxxxxxxx',
+  ApiVersion: '2010-04-01'
+}
+
+HEADERS -> 
+{
+  host: 'hostSameInBothPlaces',
+  'user-agent': 'TwilioProxy/1.1',
+  'content-length': '405',
+  accept: '*', //actual is star/star but breaks comment structure
+  'content-type': 'application/x-www-form-urlencoded',
+  'i-twilio-idempotency-token': 'xxx',
+  'x-forwarded-for': 'xxx',
+  'x-forwarded-host': 'hostSameInBothPlaces',
+  'x-forwarded-proto': 'https',
+  'x-home-region': 'us1',
+  'x-twilio-signature': 'xxx',
+  'accept-encoding': 'gzip'
 }
 */
